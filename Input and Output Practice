@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int intV=sc.nextInt();
+      float floatV=sc.nextFloat();
+      char charV=sc.next().charAt(0);
+      long longV=sc.nextLong();
+      double doubleV=sc.nextDouble();
+      System.out.println(intV);
+      System.out.println(floatV);
+      System.out.println(charV);
+      System.out.println(longV);
+      System.out.println(doubleV);
+
+  }
+}
+
+
